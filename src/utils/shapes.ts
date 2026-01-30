@@ -183,7 +183,6 @@ function generateBubble(positions: Float32Array, count: number) {
 
 function generateSaturn(positions: Float32Array, count: number) {
   const planetCount = Math.floor(count * 0.6)
-  const ringCount = count - planetCount
   const planetRadius = 1.5
   const ringInner = 2.2
   const ringOuter = 3.5
